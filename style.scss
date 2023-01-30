@@ -1,0 +1,65 @@
+$clair_green: #99E2D0;
+$dark_green: #008766;
+$clair_blue: #89C8FA;
+$dark_blue: #003A68;
+$purple: #9356DC;
+$white: #FFFFFF;
+$clair_grey: #F7F7F7;
+$dark_grey:#EAEAEA;
+
+@mixin font300 {
+    font-weight: 300;
+}
+@mixin font500{
+    font-weight: 500;
+}
+@mixin font-700{
+    text-shadow: .55rem .55rem #9356DC;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 375px;
+    margin-left: 0;
+    justify-content: center;
+}
+
+header{
+    width: 375px;
+    height: 63px;
+    background: $white;
+    display: flex;
+    justify-content: center; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+header img{
+    width: 162px;
+    height: 44px;
+}
+.localisation{
+    width: 375px;
+    height: 50px;
+    background: $dark_grey;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 17px;
+}
+.restaurants img{
+    width: 258px;
+    height: 251px;
+    object-fit: cover;
+}
+
+ .h1{
+    &_header{
+     @include font-700;
+    }
+}
+
