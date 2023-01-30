@@ -1,1 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 375px;
+  margin-left: 0;
+  justify-content: center;
+}
+
+header {
+  width: 375px;
+  height: 63px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+header img {
+  width: 162px;
+  height: 44px;
+}
+
+.localisation {
+  width: 375px;
+  height: 50px;
+  background: #EAEAEA;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 17px;
+}
+
+.restaurants img {
+  width: 258px;
+  height: 251px;
+  object-fit: cover;
+}
+
+.h1_header {
+  text-shadow: 0.55rem 0.55rem #9356DC;
+}
+
+/*# sourceMappingURL=style.css.map */
 
